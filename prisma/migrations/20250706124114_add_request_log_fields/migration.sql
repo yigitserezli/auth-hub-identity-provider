@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "RequestLog" ADD COLUMN     "meta" JSONB,
+ADD COLUMN     "status" INTEGER NOT NULL DEFAULT 200,
+ADD COLUMN     "userId" INTEGER;
